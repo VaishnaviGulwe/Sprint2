@@ -1,0 +1,83 @@
+<testsuite name="Wishlist.wishlist flipkart" tests="2" errors="0" failures="0" skipped="0" time="373.48757" timestamp="2022-11-11T15:22:12.068473" hostname="DESKTOP-4VSFUDA"><testcase classname="Wishlist.wishlist flipkart" name="wishlist the product in to flipkart -- @1.1 " status="passed" time="188.014873"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: wishlist the product in to flipkart -- @1.1 
+    Given We are on flipkart website ... passed in 45.656s
+    Then Enter your "vaishnavigulwe1307@gmail.com" in the feild ... passed in 20.287s
+    And Enter your "Vaish@1307" in the box ... passed in 20.243s
+    And Click login ... passed in 0.097s
+    Then Type "samsung a73 5g" in search bar ... passed in 60.646s
+    And Click on search button ... passed in 0.105s
+    Then Click on the wishlist button ... passed in 10.621s
+    And Click on the username ... passed in 0.304s
+    And Click on the wishlist from the option listed ... passed in 5.360s
+    Then Check the product is in the wishlist ... passed in 0.024s
+    And Click on the wishlist product ... passed in 9.324s
+    Then Verify the product ... passed in 3.012s
+    And Close the tab ... passed in 3.089s
+    Then Click on the delete button ... passed in 5.139s
+    And Click on the yes remove ... passed in 4.108s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase><testcase classname="Wishlist.wishlist flipkart" name="wishlist the product in to flipkart -- @1.2 " status="passed" time="185.472698"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: wishlist the product in to flipkart -- @1.2 
+    Given We are on flipkart website ... passed in 45.107s
+    Then Enter your "vaishnavigulwe1307@gmail.com" in the feild ... passed in 20.328s
+    And Enter your "Vaish@1307" in the box ... passed in 20.227s
+    And Click login ... passed in 0.089s
+    Then Type "oppo f19 pro" in search bar ... passed in 23.325s
+    And Click on search button ... passed in 0.130s
+    Then Click on the wishlist button ... passed in 30.735s
+    And Click on the username ... passed in 0.295s
+    And Click on the wishlist from the option listed ... passed in 5.358s
+    Then Check the product is in the wishlist ... passed in 0.032s
+    And Click on the wishlist product ... passed in 24.494s
+    Then Verify the product ... passed in 3.012s
+    And Close the tab ... passed in 3.110s
+    Then Click on the delete button ... passed in 5.136s
+    And Click on the yes remove ... passed in 4.096s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>
