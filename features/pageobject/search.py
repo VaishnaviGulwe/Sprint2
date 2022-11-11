@@ -14,6 +14,7 @@ class SEARCH(BaseSettingsPage):
     def __int__(self,driver):
         super().__init__(driver)
     def text_Searchbar(self, searchTEXT):
+        time.sleep(3)
         WebDriverWait(self.driver, 40, ignored_exceptions=[StaleElementReferenceException]).until(EC.presence_of_element_located((By.XPATH,ConfigReader("locators","SEARCHBAR_XPATH"))))
 
         self.DynamicImplicitWait(40)
